@@ -3,13 +3,13 @@
 /**
  * sawp_list - sawp two consiqative  doubly linked list
  * @first: first node
- * @second: the second node 
+ * @second: the second node
  */
 void sawp_list(listint_t *first, listint_t *second)
 {
 	listint_t *tmp = first->prev;
-	first->next = NULL;
 
+	first->next = NULL;
 	if (second->next != NULL)
 	{
 		first->next = second->next;
