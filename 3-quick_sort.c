@@ -46,9 +46,4 @@ void quick_sort(int *array, size_t size)
 			{
 				quick_sort(array, size - 1);
 				break;
-			}
-		}
-	}
-}
-
-
+			}}}}
